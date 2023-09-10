@@ -18,7 +18,8 @@ public class exercicio6 {
         System.out.println("Digite sua idade (numeros): ");
         int idade = scanner.nextInt();
         scanner.close();
-
+        
+        
         
         
         //elses, ifs etc...
