@@ -2,7 +2,7 @@ package caldeiraAula1Java;
 import java.util.Scanner;
 public class exercicio11 {
   /*
-   Peça ao usuário que digite uma palavra ou frase e conte quantas vogais
+   11.Peça ao usuário que digite uma palavra ou frase e conte quantas vogais
     (a, e, i, o, u) estão presentes. Exiba o número de vogais na tela.
    */
 	public static void main(String[] args) {

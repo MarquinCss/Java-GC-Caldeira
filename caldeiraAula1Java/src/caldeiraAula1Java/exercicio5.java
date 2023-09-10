@@ -28,8 +28,8 @@ que se passaram desde as 0h00min0s e a quantidade de segundos que faltam para a 
 	            // seg/faltMeiaNt
 	            int segundosFaltandoParaMeiaNoite = (24 * 3600) - segundosDesdeMeiaNoite;
 
-	            System.out.println("Segundos desde a meia-noite: " + segundosDesdeMeiaNoite);
-	            System.out.println("Segundos faltando para a meia-noite: " + segundosFaltandoParaMeiaNoite);
+	            System.out.println("Segundos que se passaram desde a meia-noite: " + segundosDesdeMeiaNoite);
+	            System.out.println("Segundos que tão faltando para a meia-noite: " + segundosFaltandoParaMeiaNoite);
 	        }
 
 	        scanner.close();

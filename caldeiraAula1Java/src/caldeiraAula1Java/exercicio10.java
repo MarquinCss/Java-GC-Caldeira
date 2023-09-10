@@ -15,7 +15,7 @@ public class exercicio10 {
         double Fahrenheit = (celsius * 9/5) + 32;
         System.out.println("Celsius: " + celsius + " em Fahrenheit: " + Fahrenheit);
         scanner.close();
-		//DÁ PARA FAZER ATÉ PARA KELVIN EIN
+		//ADOREI, DÁ PARA FAZER ATÉ PARA KELVIN EIN
 	}
 	
 }
