@@ -13,7 +13,7 @@ public class exercicio3 {
 	 
 
 	        System.out.println("Digite o ultimo agora hehe: ");
-	        double n3 = scanner.nextDouble();
+	        double n3 =  scanner.nextDouble();
 
 	        scanner.close();
 	        
