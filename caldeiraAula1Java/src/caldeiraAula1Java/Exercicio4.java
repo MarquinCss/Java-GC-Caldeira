@@ -24,6 +24,7 @@ public class Exercicio4 {
 	        double contasalariomin = salario / 1320;
 
 	        // Criar um objeto DecimalFormat para formatar o resultado com duas casas decimais
+	        // não podemos esquecer de por o import disso la em cima
 	        DecimalFormat df = new DecimalFormat("#.##");
 	        String contasalariominFormatado = df.format(contasalariomin);
 
