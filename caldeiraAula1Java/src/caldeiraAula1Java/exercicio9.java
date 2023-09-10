@@ -10,6 +10,8 @@ public class exercicio9 {
 	Scanner scanner = new Scanner(System.in);
 	 System.out.println("Qual seu ano de nascimento?");
 	 int anoNascido =  scanner.nextInt() ;
+	 scanner.close();
+
 	 int anoAtual = 2023;
 	 int contaIdade =  anoAtual - anoNascido;
 	 

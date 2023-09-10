@@ -21,6 +21,8 @@ public class Exercicio4 {
 	        double salario = scanner.nextDouble();
 	        usuarioMarco.setSalario(salario);
 
+	        scanner.close();
+
 	        double contasalariomin = salario / 1320;
 
 	        // Criar um objeto DecimalFormat para formatar o resultado com duas casas decimais
@@ -28,7 +30,7 @@ public class Exercicio4 {
 	        DecimalFormat df = new DecimalFormat("#.##");
 	        String contasalariominFormatado = df.format(contasalariomin);
 
-	        System.out.println("1. Meu nome é " + usuarioMarco.getNome() + " e se uma pessoa"
-	                + " recebe " + salario + " ela recebe " + contasalariominFormatado + " salários mínimos.");
+	        System.out.println(" Meu nome é " + usuarioMarco.getNome() + " e recebo "
+	                + salario + ", então se formos ver eu recebo " + contasalariominFormatado + " salários mínimos.");
 	    }
 	}
