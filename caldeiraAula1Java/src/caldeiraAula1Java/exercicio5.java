@@ -31,7 +31,7 @@ que se passaram desde as 0h00min0s e a quantidade de segundos que faltam para a 
 	            System.out.println("Segundos que se passaram desde a meia-noite: " + segundosDesdeMeiaNoite);
 	            System.out.println("Segundos que tão faltando para a meia-noite: " + segundosFaltandoParaMeiaNoite);
 	        }
-
+//Tive muita dificuldade com esse exercício, inclusive abri um issues, não sei se está certo, sorry profs.
 	        scanner.close();
 	    }
 	}
