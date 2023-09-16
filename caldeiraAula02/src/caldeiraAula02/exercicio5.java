@@ -14,8 +14,6 @@ import java.util.Scanner;
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = 0;
-
-        
         while (n <= 10) {
             System.out.println("Digite um número");
             double value = scanner.nextDouble();
