@@ -12,7 +12,7 @@ public class exercicio1 {
         System.out.println("Digite o segundo numero: ");
         int secondNumber = scanner.nextInt();
 
-        System.out.println("Intervalo escolhido [ " + firstNumber + " , " + secondNumber + " ]");
+        System.out.println("Intervalo escolhido" + firstNumber + " , " + secondNumber);
         System.out.println("Numeros primos encontrados: ");
 
         for (int i = firstNumber; i <= secondNumber; i++) {

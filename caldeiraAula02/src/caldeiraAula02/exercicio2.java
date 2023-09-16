@@ -16,7 +16,8 @@ public static void main(String[] args) {
          System.out.println("Digite um segundo número: ");
          double secondNumber = scanner.nextDouble();
 
-         //Matar o bug da classe Scanner
+         
+  //"próxima linha para não bugar
          scanner.nextLine();
 
          System.out.println("Digite se quiser...");
@@ -55,7 +56,7 @@ public static void main(String[] args) {
              }
              default -> System.out.println("Opção inválida!");
          }
-      	System.out.println("Obrigadinho por calcular aqui, se quiser cancelar é só apertar 'N' ou 'n' ");
+      	System.out.println("Obrigadinho por calcular aqui.");
      }
      scanner.close();
  }
