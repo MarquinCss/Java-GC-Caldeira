@@ -24,7 +24,6 @@ public class exercicio1 {
         scanner.close();
     }
 
-    // Função para verificar se um número é primo
     public static boolean isPrime(int num) {
         if (num <= 1) {
             return false;

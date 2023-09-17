@@ -10,8 +10,7 @@ public class exercicio4 {
         String reverso1 = reverso111(input);
         System.out.println("[Solução 1] A string ao contrário é: " + reverso1  );
 
-        String reverso2 = reverso222(input);
-        System.out.println("[Solução 2] A string ao contrário é: " + reverso2);
+       
 
         scanner.close();
     }
@@ -19,9 +18,6 @@ public class exercicio4 {
         StringBuilder stringBuilder = new StringBuilder(text);
         return stringBuilder.reverse().toString();
     }
-    public static String reverso222(String text) {
-        StringBuilder stringBuilder = new StringBuilder(text);
-        return stringBuilder.reverse().toString();
-    }
+  
 }
 
