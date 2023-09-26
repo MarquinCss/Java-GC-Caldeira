@@ -2,6 +2,13 @@ package exercicios;
 import java.util.Random;
 import java.util.Scanner;
 
+/*
+ * Exercício 2: Uso de Array
+Descrição: Crie um programa Java que gere automaticamente um
+ array de 10 números inteiros aleatórios entre 1 e 100. Em seguida, 
+ peça ao usuário para inserir um número e verifique se esse número está 
+ presente no array. Exiba uma mensagem indicando se o número foi encontrado ou não.
+ */
 public class exercicio2 {
 
     public static void main(String[] args) {
@@ -28,11 +35,11 @@ public class exercicio2 {
 
         // Exibimr o resultado
         if (encontrado) {
-            System.out.println("O número " + numeroInserido + " tá na lista.");
+            System.out.println("O número " + numeroInserido + " está na lista.");
         } else {
             System.out.println("O número " + numeroInserido + " não foi encontrado na lista.");
         }
-
+//NÃO ESQUECER DE FECHAR SCANNER PELO AMOR kkkkkkkk
         scanner.close();
     }
 }
