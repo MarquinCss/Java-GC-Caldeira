@@ -60,7 +60,7 @@ public class exercicio4 {
                     String dataValidadeStr = scanner.nextLine();
                     System.out.print("Qual o preço do item? R$");
                     double precoItem = scanner.nextDouble();
-                    scanner.nextLine(); // Limpar o buffer de entrada
+                    scanner.nextLine(); 
 
                     try {
                         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
@@ -83,7 +83,7 @@ public class exercicio4 {
                         }
                         System.out.print("Qual número você quer remover? ");
                         int numeroItem = scanner.nextInt();
-                        scanner.nextLine(); // Limpar o buffer de entrada
+                        scanner.nextLine(); 
 
                         if (numeroItem >= 1 && numeroItem <= listaDeCompras.size()) {
                             listaDeCompras.remove(numeroItem - 1);
