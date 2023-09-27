@@ -6,7 +6,7 @@ public class oslivros {
     public static void main(String[] args) {
         Stack<Livro> pilhaDeLivros = new Stack<>();
 
-        // Inicialize a pilha com objetos Livro
+       
         Livro livro1 = new Livro("Akira", "Ficção");
         Livro livro2 = new Livro("Akira 2", "Ficção");
         Livro livro3 = new Livro("História do Brasil", "História");
@@ -40,7 +40,7 @@ public class oslivros {
                     break;
                 case 3:
                     pilhaDeLivros.pop();
-                    System.out.println("Livro removido com sucesso!");
+                    System.out.println("Livro removido com sucesso meu amigo!");
                     break;
                 case 4:
                     System.out.println("Tchauzinho amigo(a), encerrando...");
