@@ -8,7 +8,7 @@ public class oslivros {
 
        
         Livro livro1 = new Livro("Akira", "Ficção");
-        Livro livro2 = new Livro("Akira 2", "Ficção");
+        Livro livro2 = new Livro("Sherlock Holmes", "Ficção");
         Livro livro3 = new Livro("História do Brasil", "História");
         Livro livro4 = new Livro("Romeu e Julieta", "Romance");
         Livro livro5 = new Livro("Anne Frank", "História");
