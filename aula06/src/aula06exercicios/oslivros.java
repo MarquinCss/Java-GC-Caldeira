@@ -7,7 +7,7 @@ public class oslivros {
         Stack<Livro> pilhaDeLivros = new Stack<>();
 
        
-        Livro livro1 = new Livro("Akira", "Ficção");
+        Livro livro1 = new Livro("Aki", "Ficção");
         Livro livro2 = new Livro("Sherlock Holmes", "Ficção");
         Livro livro3 = new Livro("História do Brasil", "História");
         Livro livro4 = new Livro("Romeu e Julieta", "Romance");
